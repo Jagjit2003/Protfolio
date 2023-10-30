@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROTFOLIO</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <style>
+         
+          .navbar 
+        {
+            
+             width:97%;
+             height: 30%;
+           /*  border: 2px solid blue;*/
+             border-radius: 5px;
+             padding: 3px 6px;
+             margin:12px; 
+          /*  background-color:rgb(105,105,105);*/
+             
+        }
+         .navbar ul
+         {
+             overflow: auto;
+             margin: 8px;
+         }
+         .navbar li
+         {
+              float: right;
+              list-style: none;
+              font-size: larger;
+              padding: 10px;
+              margin: 13px 20px;
+              color: whitesmoke;
+         }
+            .prot
+           {
+              float:left;
+              margin:20px;
+              list-style: none;
+              font-size: 25px;
+              font-family:'Courier New', Courier, monospace;
+              color: whitesmoke;
+           }
+         body
+           {
+               background-color:rgba(0, 10, 16, 0.966);
+               
+           }
+          
+            .navbar li:hover{
+                background-color:black;
+                cursor:pointer;
+            }
+             .source
+             {
+               display: flex; 
+               border-radius:50%;
+               width: 300px;
+               height: 300px;
+               float: right;
+               margin-right: 210px;
+               margin-top: 50px;
+               border: 10px solid rgb(0,255,255);
+               
+             }
+           #para
+           {
+              
+              font-family:Verdana;
+              font-size:30px;
+              color: whitesmoke;
+              margin-top:4.4em;
+              margin-left: 3.6em;
+              text-shadow: 2.2px 2.2px whitesmoke;
+           }
+            #para1
+            {
+              display: flex; 
+              font-family:Verdana;
+              font-size:larger;
+              color: whitesmoke;
+              margin-top:-0.5em;
+              margin-left: 5.7em;
+            }
+               #inline
+             { 
+              display: flex; 
+              font-family:Verdana;
+              font-size:larger;
+              color:rgb(0,255,255);
+              margin-top:-0.2em;
+              margin-left: 0.7em;
+              text-shadow: 2px 2px rgb(0,255,255);
+             }
+              #intro
+              {
+              display: flex; 
+              font-family:Verdana;
+              font-size:16px;
+              color:whitesmoke;
+              margin-left: 2.2em;
+              text-shadow: 0.7px 0.7px whitesmoke;
+              }
+                .home-sci a{
+                   display: inline-flex;
+                   justify-content: center;
+                   align-items: center;
+                   width: 40px;
+                   height: 40px;
+                   background: transparent;
+                   border: 2px solid #0ef;
+                   border-radius:50%;
+                   font-size: 20px;
+                   color: #0ef;
+                   text-decoration: none;
+                   margin:30px 15px 30px 30px;
+                   
+                 }
+                 .home-sci a:hover
+                 {
+                     background: #0ef;
+                     color:#081b29;
+                     box-shadow: 0 0 20px #0ef;
+
+                 }
+             @media (max-width: 768px) {
+            /* Adjust styles for tablets and smaller screens */
+            .navbar li {
+                font-size: 16px;
+                margin: 0 5px;
+            }
+            .prot {
+                font-size: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            /* Adjust styles for mobile devices */
+            .navbar {
+                padding: 5px;
+            }
+            .navbar li {
+                font-size: 14px;
+                margin: 0 2px;
+            }
+            .prot {
+                font-size: 18px;
+            }
+            #para {
+                font-size: 24px;
+            }
+            #para1 {
+                font-size: 16px;
+            }
+            #intro {
+                font-size: 14px;
+            }
+            .home-sci a {
+                width: 30px;
+                height: 30px;
+                font-size: 16px;
+            }
+        }
+             
+   </style>
+  </head>
+
+<body>
+      <header> 
+      
+    <nav class="navbar">
+    
+        <ul>
+            <li>Skills</li>
+            <li>Contact</li>
+            <li>Project</li>
+            <li>Home</li>
+           <div class="prot">.Protfolio</div>
+        </ul>
+   </nav>
+           </header>  
+            
+           <img class="source" src="image4.png" alt="Error image loading">
+             <div class="paragraph">
+           <p id="para">HI, I'M JAGJIT BISWAL</p>
+           <p id="para1">And i'm a<span id="inline">FULL STACK WEB DEVLOPER</span></p>
+           </div>
+            <div>
+              <p id="intro">Hello, I'm Jagjit Biswal, a passionate Full Stack Web Developer. With a solid background in both front-end and back-end development, I thrive in creating robust, user-friendly, and innovative web applications. I have a strong command over programming languages like JavaScript, Python, and PHP, coupled with expertise in modern frameworks such as React, Angular, Node.js, and Django.</p>
+            </div>
+             
+              <div class="home-sci">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class='bx bxl-whatsapp'></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="#"><i class="bx bxl-github"></i></a>
+              </div>
+</body>
+</html>
